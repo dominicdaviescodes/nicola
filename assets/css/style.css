@@ -1,4 +1,4 @@
-/**
+/*
 * Template Name: Personal - v2.0.1
 * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 * Author: BootstrapMade.com
@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg2.jpg") top right no-repeat;
+  background: #040404 url("../img/bg1.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -35,14 +35,14 @@ body::before {
 
 @media only screen and (max-width: 900px) {
   body::before {
-    background: url("../img/bg2.jpg") no-repeat;
+    background: url("../img/bg1.jpg") no-repeat;
     background-size: cover;
   }
 }
 
 @media only screen and (max-width: 576px) {
   body::before {
-    background: url("../img/bg2.jpg") no-repeat;
+    background: url("../img/bg1.jpg") no-repeat;
     background-position: -120px 0;
     background-size: cover;
   }
