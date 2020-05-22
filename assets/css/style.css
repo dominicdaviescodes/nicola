@@ -30,6 +30,7 @@ body::before {
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
+    background-position: 0 -35px;
   }
 }
 
@@ -134,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #18d26e;
 }
 
+/* Screens smaller than 992 px */
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
